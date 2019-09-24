@@ -1,0 +1,9 @@
+#!/bin/bash
+
+LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/opt/instantclient_18_5
+LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/opt/ext//lib
+export LD_LIBRARY_PATH
+
+export TNS_ADMIN=$TNS_ADMIN:/opt/down/Oracle_OCI
+
+./OCI

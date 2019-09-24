@@ -1,0 +1,7 @@
+#!/bin/bash
+
+LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/opt/instantclient_18_5
+LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/opt/ext/lib
+export LD_LIBRARY_PATH
+
+make
